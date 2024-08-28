@@ -1,0 +1,32 @@
+A "My rooms" page. Display the rooms you've created where you can go to them or edit them.
+ToFix:
+TODO - Fix Edit for PointRange in CreateRoom/QuestionPopupEditor. Does not send in edit value correctly sometimes.
+TODO - Add some premade rooms to populate database a bit.
+TODO - Make room creator/editor Card larger
+TODO - Center QuestionPopupedit
+TODO - After answering a question for country, zoom in more on that country.
+TODO - Implement global interfaces everywhere they should be.
+TODO - Fix all typescript errors
+
+Extra Optional:
+TODO - Maybe add comments to rooms
+TODO - Filter in Browse. Filter by most likes, views, most played, featured.
+TODO - Be able to add images to/as questions
+TODO - An about page explaining what the website is and how the quizes work.
+TODO - Add rating system for dislikes also, or just star rating.
+TODO - Maybe add a page of "My liked rooms" as a way to save rooms
+TODO - Be able to login as anonymous with firebase. Cannot create rooms but can play them.
+TODO - Add skip question button to game.
+
+Done:
+Fix search result styling
+Customize the rooms page a bit more, its a bit empty now.
+Make range in QuestionPopupEdit go to 0 as minumum (1 was the lowest)
+After answering a question, deselect the previous answer.
+Implement database context functions everywhere they should be
+Upload filter to only allow upload for images.
+Add passwords check for length, capital letters, special characters, numbers. Strength meter.
+Multpiplayer session, create lobby in room and invite others. Real-time chat and score.
+Make profile page nicer, maybe a dropdown on profile image for either profile, my rooms and logout.
+Fix so regular login work as it should. Maybe create usercollection or see if you can add image and additional information to regular user table.
+
