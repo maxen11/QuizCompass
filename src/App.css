@@ -1,0 +1,103 @@
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+  background: url("src/assets/explorer.webp") no-repeat center center fixed;
+  background-size: cover;
+}
+
+#root {
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+
+  
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.582);
+  /* background-color: #242424; */
+  /* background: url("src/assets/explorer.webp") no-repeat center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
+  width: 100%;
+  position: sticky; */
+  min-height: 100vh;
+}
+.map-container {
+  overflow: hidden;
+  height: 100%; 
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+/* .content {
+  padding: 4rem;
+} */
+
+.custom-modal {
+  max-width: 800px;
+}
+
+/* #createroom-login-tooltip > .tooltip-inner{
+  background-color: red;
+  opacity: 0.8;
+}
+#createroom-login-tooltip > .tooltip-arrow{
+  border-bottom-color: red !important;
+  color: white !important;
+
+} */
+
+/* [class*='react-tooltip__place-right'] > .arrow {
+  transform: rotate(135deg);
+  background: red;
+} */
+
+.tooltip-inner {
+  background-color: #ff0000;
+  box-shadow: 0px 0px 4px red;
+  opacity: 1 !important;
+}
+
+.tooltip.bottom .tooltip-arrow {
+  top: 0;
+  left: 50%;
+  margin-left: -5px;
+  border-bottom-color: red; /* black */
+  border-width: 0 5px 5px;
+}
+
+.mapboxgl-ctrl-bottom-right {
+  display: none;
+}
+
+.mapboxgl-ctrl-top-right{
+  z-index: 0;
+}
+
+.mapboxgl-ctrl-bottom-left{ 
+  z-index: 0;
+}
