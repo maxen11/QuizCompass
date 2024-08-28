@@ -13,4 +13,10 @@ The quizzes are hosted in rooms which hosts a set of questions. You can either c
 
 ## Frameworks 
 - React JS 
-- Firebase 
+- Firebase
+
+- ## How to run
+  - First run the command "npm install" to install all dependencies
+  - Second, start the Vite server with "npm run dev"
+  - Third, visit the localhost address given
+  - Done!
