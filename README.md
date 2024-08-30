@@ -10,9 +10,9 @@ The quizzes are hosted in rooms which hosts a set of questions. You can either c
 - Starting a room lobby - Invite and chat with your friends
 - Interactive map element - Place out a marker for your quiz answer
 
-## Frameworks 
-⚛️ React (TypeScript) 
-🔥 Firebase
+## Frameworks
+* ⚛️ React (TypeScript) 
+* 🔥 Firebase
 
 ## How to run
 - First run the command "npm install" to install all dependencies
