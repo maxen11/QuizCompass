@@ -7,7 +7,7 @@ The quizzes are hosted in rooms which hosts a set of questions. You can either c
 - Login and signup (Regular and Google OAuth)
 - Room creation - Make your own quiz
 - Room browsing - Browse rooms other have made, give them a like or search for a specific one
-- Starting a room lobby - Invite and chat with your friends
+- Start or join a lobby - Invite and chat with your friends
 - Interactive map element - Place out a marker or select a country for your quiz answer on an interactive globe
 
 ## Frameworks
